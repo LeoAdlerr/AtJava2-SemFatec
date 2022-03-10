@@ -74,7 +74,7 @@ public static void main(String[] args) {
 	C2.correr(300);
 	System.out.println(C2.frear());
 	M3 =new Moto("ZYW9876",1.0, "yamaha", "branca", "yamaha",true, 2019);
-	System.out.println(M3);
+	System.out.println(M3.cor+"\n"+M3.marca);
 	
 }
 
