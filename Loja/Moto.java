@@ -57,25 +57,23 @@ public static void main(String[] args) {
 	// TODO Auto-generated method stub
 	
 	//instanciando objetos da classe
-	Moto C1 = new Moto("FDG6980",2.0, "modelo", "vermelha", "Ferrari",true, 2020);
+	Moto M1 = new Moto("BRR6969",2.0, "ninja", "verde", "kawasaki",true, 2018);
+	System.out.println(M1.cor+"\n"+M1.marca);
 	//String plac,double pot,String modelo,String cor,String marca,boolean cambio_automatico,int ano
 	//declarar na ordem ácima
 	
 	//declarei e depois instanciei o objeto
-	Moto C2;
-	C2 =new Moto("USA2000",1.0,"palio","preto","fiat",false, 2012);
+	Moto M2;
 	
-	//usando objetos
-	//C1.ano=2020;
-	//C1.cor="vermelho";
-	C1.andar();
+	Moto M3;
 	
-	//C2.marca="Ferrari";
-	C2.correr(300);
-	System.out.println(C2.frear());
+	M2 =new Moto("ABC7676",1.0,"pop100","cinza","pop",false, 2004);
+	System.out.println(M2.cor+"\n"+M2.marca);
+	
 	M3 =new Moto("ZYW9876",1.0, "yamaha", "branca", "yamaha",true, 2019);
+	//System.in.preco;
 	System.out.println(M3.cor+"\n"+M3.marca);
-	
+
 }
 
 }
