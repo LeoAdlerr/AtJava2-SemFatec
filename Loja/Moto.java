@@ -1,16 +1,16 @@
 package Loja;
 public class Moto {
-    //Assim se faz um coment·rio!
+    //Assim se faz um coment√°rio!
 /*
  * Assim se comenta em bloco
  */
 
 /**
- * Coment·rio de documentaÁ„o
+ * Coment√°rio de documenta√ß√£o
  * @param args
  */
 
-// atributos de classe -> caracterÌsticas
+// atributos de classe -> caracter√≠sticas
 private String placa;
 private double potencia;
 private String modelo;
@@ -20,12 +20,12 @@ private boolean cambio_automatico;
 private int ano;
 private float preco;
 
-//mÈtodo construtor executado apenas no ato da instanciaÁ„o
+//m√©todo construtor executado apenas no ato da instancia√ß√£o
 
 public Moto(String plac,double pot,String modelo,String cor,String marca,boolean cambio_automatico,int ano) {
 	placa=plac;
 	potencia=pot;
-	this.modelo=modelo; //this necess·rio quando nomes iguais de atributo e argumento
+	this.modelo=modelo; //this necess√°rio quando nomes iguais de atributo e argumento
 	this.cor=cor;
 	this.cambio_automatico=cambio_automatico;
 	this.ano=ano;
@@ -33,14 +33,14 @@ public Moto(String plac,double pot,String modelo,String cor,String marca,boolean
 	
 }
 
-//mÈtodos de acesso aos atributos
+//m√©todos de acesso aos atributos
 public float get_preco() {
 	return preco;
 }
 public void  set_preco(float novopreco) {
 	preco=novopreco;
 }
-//mÈtodos -> aÁıes
+//m√©todos -> a√ß√µes
 
 public void andar() {
 	System.out.println("andando");
@@ -59,7 +59,7 @@ public static void main(String[] args) {
 	//instanciando objetos da classe
 	Moto C1 = new Moto("FDG6980",2.0, "modelo", "vermelha", "Ferrari",true, 2020);
 	//String plac,double pot,String modelo,String cor,String marca,boolean cambio_automatico,int ano
-	//declarar na ordem ·cima
+	//declarar na ordem √°cima
 	
 	//declarei e depois instanciei o objeto
 	Moto C2;
@@ -73,6 +73,8 @@ public static void main(String[] args) {
 	//C2.marca="Ferrari";
 	C2.correr(300);
 	System.out.println(C2.frear());
+	M3 =new Moto("ZYW9876",1.0, "yamaha", "branca", "yamaha",true, 2019);
+	System.out.println(M3);
 	
 }
 
