@@ -21,8 +21,6 @@ import javax.swing.JEditorPane;
 
 public class TelaCarro extends JFrame{
 	
-	protected static final int Carro = 0;
-	protected static final int List = 0;
 	private JLabel lableModeloCarro;
 	private JLabel lablePlacaCarro;
 	private JLabel lablePrecoCarro;
@@ -69,7 +67,7 @@ public class TelaCarro extends JFrame{
 					
 					
 					for (int i = 0; i < carros.size(); i++) {
-				        System.out.println(getCarro(c1));
+				        System.out.println("Modelo: " + c1.getModeloCarro() +  "\n" + "\n" + "Placa: " + c1.getPlacaCarro() + "\n" + "\n" + "Preco: " + c1.getPrecoCarro());
 				    }
 				
 				/*
@@ -85,12 +83,12 @@ public class TelaCarro extends JFrame{
 				JOptionPane.showMessageDialog(null, "Veiculo salvo com sucesso!");
 			}
 
-			LinkedList<Carro> carros = new LinkedList<Carro>();
+			ArrayList<Carro> carros = new ArrayList<Carro>();
 			
 			public void cadastrarCarro(Carro carro) {
 				carros.add(carro);
 			}
-			public List<Carro> getCarro(Carro c1){
+			public ArrayList<Carro> getCarro(Carro c1){
 				return this.carros;
 			}
 			

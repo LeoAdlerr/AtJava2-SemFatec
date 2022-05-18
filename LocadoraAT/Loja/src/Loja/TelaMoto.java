@@ -63,7 +63,7 @@ public class TelaMoto extends JFrame{
 				motos.add(m1);
 				
 				for (int i = 0; i < motos.size(); i++) {
-			        System.out.println(getMoto(m1));
+			        System.out.println("Modelo: " + m1.getModeloMoto() +  "\n" + "\n" + "Placa: " + m1.getPlacaMoto() + "\n" + "\n" + "Preco: " + m1.getPrecoMoto());
 			    }
 			
 			/*

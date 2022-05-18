@@ -64,7 +64,7 @@ public class TelaVan extends JFrame{
 				
 				
 				for (int i = 0; i < vans.size(); i++) {
-			        System.out.println(getVans(v1));
+			        System.out.println("Modelo: " + v1.getModeloVan() +  "\n" + "\n" + "Placa: " + v1.getPlacaVan() + "\n" + "\n" + "Preco: " + v1.getPrecoVan());
 			    }
 			
 			/*
