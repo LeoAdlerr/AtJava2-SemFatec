@@ -1,0 +1,17 @@
+create table carro(
+placa varchar(15),
+modelo varchar(20),
+preco float
+)
+
+create table moto(
+placa varchar(15),
+modelo varchar(20),
+preco float
+)
+
+create table van(
+placa varchar(15),
+modelo varchar(20),
+preco float
+)
